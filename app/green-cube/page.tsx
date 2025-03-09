@@ -44,11 +44,9 @@ export default function Home() {
 	}, []);
 
 	return (
-		<>
-			<div className="text-white bg-black ">
-				<Link href={"/"}>Back to Home</Link>
-				<div ref={mountRef}></div>
-			</div>
-		</>
+		<div className="text-white bg-black ">
+			<Link href={"/"}>Back to Home</Link>
+			<div ref={mountRef}></div>
+		</div>
 	);
 }
