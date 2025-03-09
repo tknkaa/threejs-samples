@@ -10,6 +10,9 @@ export default function Home() {
 				<li className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
 					<Link href={"/green-cube"}>green cube</Link>
 				</li>
+				<li className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+					<Link href={"/white-line"}>white-line</Link>
+				</li>
 			</ul>
 		</>
 	);
