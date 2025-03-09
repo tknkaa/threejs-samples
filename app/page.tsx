@@ -11,7 +11,10 @@ export default function Home() {
 					<Link href={"/green-cube"}>green cube</Link>
 				</li>
 				<li className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
-					<Link href={"/white-line"}>white-line</Link>
+					<Link href={"/white-line"}>white line</Link>
+				</li>
+				<li className="max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+					<Link href={"/red-sphere"}>red sphere</Link>
 				</li>
 			</ul>
 		</>
